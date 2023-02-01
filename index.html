@@ -9,12 +9,27 @@
 </head>
 <body>
     
-<div>
-    <div>
-        <img src="imagem_loja.png" alt="Imagem Seção 4">
+<div class="container">
+    <div class="float-container">
+        <img src="imagem_loja.png" style="width: 250px;" alt="Imagem Seção 4">
     </div>
-    <div>
-    
+    <div class="float-container">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">Nunca compartilharemos seu email com ninguém.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Sua senha">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Tire-me daqui</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
     </div>
 </div>
 
