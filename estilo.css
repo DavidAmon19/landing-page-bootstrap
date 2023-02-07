@@ -1,13 +1,13 @@
 .card {
-    display: inline;
+  display: inline;
 }
 
-.bloco{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+.bloco {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
-h5{
-    align-text: center;
+h5 {
+  text-align: center;
 }
